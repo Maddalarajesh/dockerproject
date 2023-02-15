@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo yum -y install git 
 sudo yum -y install docker
-sudo git clone 
+sudo git clone https://github.com/Maddalarajesh/dockerproject.git
 sudo usermod -a -G docker ec2-user
 sudo service docker start
 sudo chkconfig docker on
